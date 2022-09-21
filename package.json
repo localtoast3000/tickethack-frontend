@@ -1,0 +1,8 @@
+{
+  "name": "tickethack-frontend",
+  "version": "1.0.0",
+  "description": "Tickethack project La Capsule",
+  "main": "main.js",
+  "author": "Craig Chick <craigchick@outlook.com>",
+  "license": "MIT"
+}
