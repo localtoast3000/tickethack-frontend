@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Tickethack project La Capsule",
   "main": "main.js",
-  "author": "Craig Chick <craigchick@outlook.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MRcraigchick/tickethack-frontend.git"
+  },
+  "author": "Craig Chick",
   "license": "MIT"
 }
