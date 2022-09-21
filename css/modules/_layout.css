@@ -1,0 +1,12 @@
+body {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 80px calc(100vh - 80px);
+  width: 100%;
+}
+.main-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}

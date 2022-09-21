@@ -5,18 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TicketHack</title>
-    <link rel="stylesheet" href="css/pages/index.css" />
+    <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
     <nav class="top-nav">
       <header class="header-container">
-        <h1>TicketHack</h1>
+        <h1><a href="index.html">TicketHack</a></h1>
       </header>
       <ul class="nav-links">
-        <li class="nav-link cart-link"><a href="pages/cart.html">Cart</a></li>
-        <li class="nav-link bookings-link"><a href="pages/bookings.html">Bookings</a></li>
+        <li class="nav-link cart-link"><a href="cart.html">Cart</a></li>
+        <li class="nav-link bookings-link"><a href="bookings.html">Bookings</a></li>
       </ul>
     </nav>
-    <script src=""></script>
+    <main class="main-container">
+      <section class="top-text-wrapper">
+        <h2 class="top-text-bold">Explore the world effortlessly by train!</h2>
+        <p class="top-text-regular">
+          Compare, book and enjoy cheap prices for train tickets: your journey starts on TicketHack.
+        </p>
+      </section>
+      <section class="trip-search-control-container">
+        <div class="trip-search-control-wrapper">
+          <div class="trip-card trip-card-left">
+            <form class="trip-search-form">
+              <div class="trip-search-top-inputs">
+                <input class="search-input departure-ipt" type="text" placeholder="Departure" />
+                <input class="search-input arrival-ipt" type="text" placeholder="Arrival" />
+              </div>
+              <input class="search-input date-ipt" type="date" />
+              <button class="search-btn" type="submit">Search</button>
+            </form>
+          </div>
+          <div class="trip-card trip-card-right"></div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="js/index.js"></script>
   </body>
 </html>
